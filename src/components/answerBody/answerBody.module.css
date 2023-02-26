@@ -1,0 +1,12 @@
+.main {
+  background-color: rgba(239, 240, 239, 0);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 80%;
+  margin-top: 20px;
+  padding: 50px;
+}

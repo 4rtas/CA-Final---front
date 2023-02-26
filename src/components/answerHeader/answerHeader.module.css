@@ -1,0 +1,17 @@
+.main {
+  background-color: rgba(239, 240, 239, 0);
+  color: white;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+@media only screen and (max-width: 800px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+  }
+}

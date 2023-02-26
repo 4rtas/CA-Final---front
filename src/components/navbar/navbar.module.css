@@ -1,0 +1,78 @@
+.main {
+  background-color: rgba(29, 31, 29, 0.699);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navbarWrapper {
+  width: 1900px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 0px;
+}
+.logo {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  padding: 0px 25px;
+}
+.logo svg {
+  height: 20px;
+  fill: white;
+}
+.logo h2 {
+  color: white;
+}
+.logo:hover {
+  background-color: rgb(19, 20, 12);
+  text-decoration: solid white underline;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.content a {
+  text-decoration: none;
+  font-size: 18px;
+}
+.login {
+  color: black;
+  background-color: white;
+  padding: 7px 21px;
+  border-radius: 10px;
+  border: 1px solid white;
+  font-size: 18px;
+  font-weight: 400;
+}
+.login:hover {
+  color: white;
+  background-color: black;
+  padding: 7px 21px;
+  border-radius: 10px;
+  border: 3px solid white;
+}
+.register {
+  color: black;
+  background-color: white;
+  padding: 7px 21px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.register:hover {
+  color: white;
+  padding: 7px 21px;
+  border-radius: 10px;
+  border: 3px solid white;
+  font-weight: 400;
+  background-color: black;
+}
